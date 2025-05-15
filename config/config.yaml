@@ -1,0 +1,12 @@
+server:
+  addr: "localhost"
+  port: "8080"
+
+  hackathons_data:
+    db:
+      driver: "postgres"
+      addr: "localhost"
+      port: "5440"
+      db: "hackathons"
+      user_env_key: "DB_USER"
+      password_env_key: "DB_PASSWORD"
