@@ -9,4 +9,4 @@ RUN go build -o hackathons ./cmd/hackathons/hackathons.go
 
 EXPOSE 8080
 
-CMD ["./hachathons"]
+CMD ["./hackathons"]
